@@ -7,3 +7,5 @@ description: >
   description.
 twitter_username: jekyllrb
 github_username: jekyll
+date_format: '%B %d, %Y'
+
