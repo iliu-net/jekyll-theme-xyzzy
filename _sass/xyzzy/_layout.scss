@@ -2,7 +2,7 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: .25rem;
+  padding: .5rem .25rem;
   position: relative;
 }
 
@@ -17,20 +17,22 @@
 
 .main-wrapper {
   background: #f1f3f5;
-  margin: .5rem;
-  padding: .25rem;
+  margin: .75rem;
+  padding: 1rem;
 }
 
 .site-title {
   background: #3b5bdb;  
   border: 1px solid #FFF;
   border-radius: 3px;
+  box-shadow: 1px -1px #FFF;
   color: #FFF;
   display: inline-block;
   font-family: 'Monda', sans-serif;
   font-size: 1.25em;
   font-weight: 700;
-  margin-bottom: -(.5rem);
+  margin-bottom: -(1rem);
+  margin-top: -(.25rem);
   padding: .5rem;
   text-decoration: none;
 }
@@ -45,6 +47,49 @@
   text-decoration: none;
 
   &:active, &:hover {
+    text-decoration: underline;
+  }
+}
+
+.page-heading {
+  border: 1px solid #212529;
+  border-radius: 3px;
+  box-shadow: 3px -3px 0 #212529;
+  margin-top: 0;
+  padding: .5rem;
+}
+
+.page-content {
+  margin: .5rem;  
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin: 2rem 0;
+  }
+}
+
+.post-meta {
+  color: #495057;
+  font-family: 'Monda', sans-serif;  
+  font-size: .85em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.post-title {
+  margin-top: .25rem;
+}
+
+.post-link {
+  text-decoration: none;
+
+  &:active, &:hover {
+    color: #212529;
     text-decoration: underline;
   }
 }
