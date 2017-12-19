@@ -1,3 +1,15 @@
 #nav {
   padding: .25rem;
+  
+  a {
+    color: #FFF;
+    font-weight: 400;
+    margin: 0 .5rem;
+    padding: .5rem;
+    text-decoration: none;
+
+    &:active, &:hover {
+      text-decoration: underline;
+    }
+  }
 }
