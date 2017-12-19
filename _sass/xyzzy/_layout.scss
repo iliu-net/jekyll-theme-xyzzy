@@ -28,6 +28,7 @@
 }
 
 #footer {
+  @extend .xlimit;
   @extend .font-sans;
   border-top: 1px dashed #868e96;
   color: #495057;  
