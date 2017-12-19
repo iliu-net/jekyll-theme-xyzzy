@@ -5,8 +5,20 @@ $xlimit-base: 960px !default;
 $xlimit-sm: 720px !default;
 $xlimit-xs: 688px !default;
 
+// Base
+@import 'xyzzy/base';
+
+// Utilities
+@import 'xyzzy/utility';
+
+// Layout
 @import
-  'xyzzy/base',
-  'xyzzy/utility',
-  'xyzzy/layout',
-  'xyzzy/syntax';
+  'xyzzy/layout/header',
+  'xyzzy/layout/main',
+  'xyzzy/layout/nav';
+
+// Modules
+@import 'xyzzy/modules';
+
+// Syntax
+@import 'xyzzy/syntax';
