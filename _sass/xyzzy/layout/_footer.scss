@@ -4,18 +4,18 @@
   border-top: 1px dashed #868e96;
   color: #495057;  
   font-size: .9em;
-  padding-top: 1.5rem;
+  padding-top: $spacing-6;
 
   h2 {
     font-size: 1.1em;
-    margin-bottom: 1rem;
+    margin-bottom: $spacing-4;
     margin-top: 0;
   }
 }
 
 .footer-inner {
   box-sizing: border-box;  
-  padding: 0 1rem; 
+  padding: 0 $spacing-4; 
 }
 
 .footer-col-wrapper {
@@ -24,7 +24,7 @@
 
 .footer-col {
   display: inline-block;
-  padding-left: 1rem;
+  padding-left: $spacing-4;
 
   &:first-child {
     padding-left: 0;

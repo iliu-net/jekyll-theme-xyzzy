@@ -1,13 +1,13 @@
 .wrapper-outer {
   border: 1px solid #bac8ff;
-  margin: 0 .5rem;
-  margin-bottom: 1rem;
+  margin: 0 $spacing-2;
+  margin-bottom: $spacing-4;
 }
 
 .wrapper-inner {
   background: #f1f3f5;
-  margin: .5rem;
-  padding: 1rem;  
+  margin: $spacing-2;
+  padding: $spacing-4;  
 }
 
 .site-description {
@@ -16,16 +16,16 @@
   border-radius: 3px;
   font-family: $font-family-serif;
   margin-top: 0;
-  margin-left: 1rem;
-  padding: .5rem;
+  margin-left: $spacing-4;
+  padding: $spacing-2;
 }
 
 .post-list {
   @extend .list-none;
-  padding: 1rem 0;
+  padding: $spacing-4 0;
 
   li {
-    margin: 2rem 0;
+    margin: $spacing-8 0;
 
     &:first-child {
       margin-top: 0;
@@ -46,7 +46,7 @@
 
 .post-title {
   margin-bottom: 0;
-  margin-top: .25rem;
+  margin-top: $spacing-1;
 }
 
 .post-link {
@@ -60,5 +60,5 @@
 
 .subscribe-link {
   @extend .font-sans;
-  margin-top: 2rem;
+  margin-top: $spacing-8;
 }

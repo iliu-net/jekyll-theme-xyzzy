@@ -1,7 +1,7 @@
 #main {
   @extend .xlimit;
-  padding: 1rem;
-  padding-bottom: 2rem;
+  padding: $spacing-4;
+  padding-bottom: $spacing-8;
 }
 
 #main > h1 {

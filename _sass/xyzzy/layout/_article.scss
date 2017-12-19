@@ -3,17 +3,17 @@
   border: 1px solid #495057;
   border-radius: 3px;
   box-shadow: 3px 3px 0 #495057;  
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin-bottom: $spacing-8;
+  margin-top: $spacing-4;
 }
 
 #article > h1 {
-  padding: 2rem .75rem;
+  padding: $spacing-8 $spacing-3;
   text-align: center;  
 }
 
 #article > header {
-  padding: 0.75rem;  
+  padding: $spacing-3;  
 
   a {
     @extend .font-sans;
