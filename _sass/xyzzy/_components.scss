@@ -21,12 +21,19 @@
 }
 
 .post-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  @extend .list-none;
+  padding: 1rem 0;
 
   li {
     margin: 2rem 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -34,11 +41,11 @@
   @extend .font-sans;
   color: #495057;
   font-size: .85em;
-  font-weight: 400;
   text-transform: uppercase;
 }
 
 .post-title {
+  margin-bottom: 0;
   margin-top: .25rem;
 }
 
@@ -49,4 +56,9 @@
     color: #212529;
     text-decoration: underline;
   }
+}
+
+.subscribe-link {
+  @extend .font-sans;
+  margin-top: 2rem;
 }
