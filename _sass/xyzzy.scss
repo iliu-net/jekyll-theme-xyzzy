@@ -9,28 +9,28 @@ $xlimit-xs: 688px !default;
 
 // Spacing
 $spacing-1: .25rem;
-$spacing-2: $spacing-1 * 2;
-$spacing-3: $spacing-1 * 3;
-$spacing-4: $spacing-1 * 4;
-$spacing-6: $spacing-1 * 6;
-$spacing-8: $spacing-1 * 8;
+$spacing-2: $spacing-1 * 2 !default;
+$spacing-3: $spacing-1 * 3 !default;
+$spacing-4: $spacing-1 * 4 !default;
+$spacing-6: $spacing-1 * 6 !default;
+$spacing-8: $spacing-1 * 8 !default;
 
 // Border radius
-$border-radius-base: 3px;
-$border-radius-sm: 2px;
+$border-radius-base: 3px !default;
+$border-radius-sm: 2px !default;
 
 // Color
-$gray-dark-1: #212529;
-$gray-dark-2: #343a40;
-$gray-dark-3: #495057;
-$gray-dark-4: #868e96;
-$color-bg-base: #f1f3f5;
-$color-bg-light: #f8f9fa;
-$color-body-bg: #3b5bdb;
-$color-body-divider: #bac8ff;
-$color-divider-base: #adb5bd;
-$color-divider-light: #ced4da;
-$color-link: #364fc7;
+$gray-dark-1: #212529 !default;
+$gray-dark-2: #343a40 !default;
+$gray-dark-3: #495057 !default;
+$gray-dark-4: #868e96 !default;
+$color-bg-base: #f1f3f5 !default;
+$color-bg-light: #f8f9fa !default;
+$color-body-bg: #3b5bdb !default;
+$color-body-divider: #bac8ff !default;
+$color-divider-base: #adb5bd !default;
+$color-divider-light: #ced4da !default;
+$color-link: #364fc7 !default;
 
 // Base
 @import 'xyzzy/base';
