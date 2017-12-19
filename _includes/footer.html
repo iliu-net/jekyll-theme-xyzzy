@@ -2,34 +2,34 @@
 
   <h2>{{ site.title | escape }}</h2>
     
-    <ul>
+  <ul>
+    <li>
+      {% if site.author %}
+        {{ site.author | escape }}
+      {% else %}
+        {{ site.title | escape }}
+      {% endif %}
+    </li>
+
+    {% if site.email %}
+      <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    {% endif %}
+  </ul>
+
+  <ul>
+    {% if site.github_username %}
       <li>
-        {% if site.author %}
-          {{ site.author | escape }}
-        {% else %}
-          {{ site.title | escape }}
-        {% endif %}
+        <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
       </li>
-  
-      {% if site.email %}
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      {% endif %}
-    </ul>
-  
-    <ul>
-      {% if site.github_username %}
-        <li>
-          <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
-        </li>
-      {% endif %}
-  
-      {% if site.twitter_username %}
-        <li>
-          <a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a>
-        </li>
-      {% endif %}
-    </ul>
-  
-    <p>{{ site.description | escape }}</p>      
+    {% endif %}
+
+    {% if site.twitter_username %}
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a>
+      </li>
+    {% endif %}
+  </ul>
+
+  <p>{{ site.description | escape }}</p>      
 
 </footer>
