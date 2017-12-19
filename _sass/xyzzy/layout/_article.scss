@@ -1,7 +1,7 @@
 #article > header, #article > h1 {
   @extend .xlimit-sm;    
   border: 1px solid #495057;
-  border-radius: 3px;
+  border-radius: $border-radius-base;
   box-shadow: 3px 3px 0 #495057;  
   margin-bottom: $spacing-8;
   margin-top: $spacing-4;
