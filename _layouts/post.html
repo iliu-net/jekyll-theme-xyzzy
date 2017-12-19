@@ -4,14 +4,16 @@ layout: default
 
 <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header>
+  <header class="article-header">
+    <a href="{{ "/" | relative_url }}">Posts ></a>
     <h1 itemprop="name headline">{{ page.title | escape }}</h1>
     <p>
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.date_format | default: '%B %d, %Y' %}
-        {{ post.date | date: date_format }}  
+        {{ page.date | date: date_format }}  
       </time>
       {% if page.author %}
+        • 
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span itemprop="name">{{ page.author }}</span>
         </span>
@@ -19,7 +21,7 @@ layout: default
     </p>
   </header>
 
-  <section itemprop="articleBody">
+  <section class="article-body" itemprop="articleBody">
     {{ content }}      
   </section>
 
