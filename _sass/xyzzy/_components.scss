@@ -1,13 +1,24 @@
 .wrapper-outer {
-  border: 1px solid $color-body-divider;
-  margin: 0 $spacing-2;
+  border-color: $color-body-divider;
+  border-style: solid;
+  border-width: 1px 0;
   margin-bottom: $spacing-4;
+
+  @media screen and (min-width: $breakpoint-sm) {
+    border-width: 1px;
+    margin-left: $spacing-2;  
+    margin-right: $spacing-2;  
+  }
 }
 
 .wrapper-inner {
   background: $color-bg-base;
-  margin: $spacing-2;
-  padding: $spacing-4;  
+  margin: $spacing-2 0;
+
+  @media screen and (min-width: $breakpoint-sm) {
+    margin: $spacing-2;
+    padding: $spacing-4;    
+  }
 }
 
 .site-description {
