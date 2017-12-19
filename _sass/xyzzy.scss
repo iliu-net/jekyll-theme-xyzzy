@@ -1,7 +1,9 @@
 $font-family-sans: 'Monda', sans-serif !default; 
 $font-family-serif: 'Roboto Slab', serif !default;
 
-$content-width: 800px !default;
+$xlimit-base: 960px !default;
+$xlimit-sm: 720px !default;
+$xlimit-xs: 688px !default;
 
 @import
   'xyzzy/base',

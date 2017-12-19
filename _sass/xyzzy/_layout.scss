@@ -23,6 +23,10 @@
   padding: 1rem;
 }
 
+.content {
+  padding-bottom: 2rem;
+}
+
 #footer {
   @extend .font-sans;
   border-top: 1px dashed #868e96;
@@ -140,13 +144,13 @@
 }
 
 .article-header {
+  @extend .xlimit-sm;
   border: 1px solid #495057;
   border-radius: 3px;
   box-shadow: 3px 3px 0 #495057;  
-  margin: auto;
   margin-bottom: 2rem;
+  margin-top: 1rem;
   padding: .75rem;
-  width: $content-width * .75;
 
   a {
     @extend .font-sans;
@@ -162,5 +166,6 @@
 }
 
 .article-body {
+  @extend .xlimit-xs;
   line-height: 1.75;
 }
