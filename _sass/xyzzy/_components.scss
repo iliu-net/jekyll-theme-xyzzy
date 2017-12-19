@@ -10,25 +10,11 @@
   padding: 1rem;  
 }
 
-.contact-list, .social-media-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  li {
-    margin: .25rem 0;
-  }
-}
-
-.social-media-list {
-  padding-left: 1rem;
-}
-
 .site-description {
   background: #f8f9fa;
   border: 1px solid #adb5bd;
   border-radius: 3px;
-  font-family: 'Roboto Slab', serif;
+  font-family: $font-family-serif;
   margin-top: 0;
   margin-left: 1rem;
   padding: .5rem;

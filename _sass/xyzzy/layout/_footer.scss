@@ -24,8 +24,10 @@
 
 .footer-col {
   display: inline-block;
+  padding-left: 1rem;
 
   &:first-child {
+    padding-left: 0;
     width: 35%;      
   }
 
