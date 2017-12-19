@@ -19,3 +19,25 @@ body {
 a {
   color: #364fc7;
 }
+
+pre, code {
+  border: 1px solid #ced4da;
+  border-radius: 2px;
+  background-color: #FFF;
+  font-size: 0.9em;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
