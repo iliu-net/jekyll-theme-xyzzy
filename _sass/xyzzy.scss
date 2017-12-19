@@ -13,6 +13,7 @@ $xlimit-xs: 688px !default;
 
 // Layout
 @import
+  'xyzzy/layout/footer',
   'xyzzy/layout/header',
   'xyzzy/layout/main',
   'xyzzy/layout/nav';
