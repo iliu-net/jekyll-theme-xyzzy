@@ -75,3 +75,22 @@
   @extend .font-sans;
   margin-top: $spacing-8;
 }
+
+.social-link {
+  text-decoration: none;
+
+  span.icon {
+    display: inline-block;
+    margin-right: $spacing-1;
+
+    svg {
+      fill: $gray-dark-3;
+      vertical-align: middle;
+    }
+  }
+
+  span.username {
+    display: inline-block;
+    text-decoration: underline;
+  }
+}
