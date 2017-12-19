@@ -1,18 +1,25 @@
 #header {
   @extend .font-sans;  
   @extend .xlimit;
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
   padding: $spacing-2 0;
-  position: relative;
+
+  @media screen and (min-width: $breakpoint-sm) {
+    align-items: center;
+    display: flex;  
+    justify-content: space-between;
+  }
 }
 
-.header-title {
+#header > a {
   color: #FFF;
   display: inline-block;
   font-size: 1.25em;
   font-weight: 700;
+  margin-bottom: $spacing-4;
   padding: $spacing-2;
   text-decoration: none;
+
+  @media screen and (min-width: $breakpoint-sm) {
+    margin-bottom: 0;
+  }
 }
