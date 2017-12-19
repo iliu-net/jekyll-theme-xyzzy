@@ -1,38 +1,46 @@
 <footer id="footer" role="contentinfo">
   <div class="footer-inner">
+    
     <h2>{{ site.title | escape }}</h2>
 
-    <div class="footer-content">
-      <ul class="contact-list">
-        <li>
-          {% if site.author %}
-            {{ site.author | escape }}
-          {% else %}
-            {{ site.title | escape }}
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+          <li>
+            {% if site.author %}
+              {{ site.author | escape }}
+            {% else %}
+              {{ site.title | escape }}
+            {% endif %}
+          </li>
+      
+          {% if site.email %}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {% endif %}
-        </li>
+        </ul>      
+      </div>
     
-        {% if site.email %}
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        {% endif %}
-      </ul>
-    
-      <ul class="social-media-list">
-        {% if site.github_username %}
-          <li>
-            <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
-          </li>
-        {% endif %}
-    
-        {% if site.twitter_username %}
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a>
-          </li>
-        {% endif %}
-      </ul>
-    
-      <p class="site-description">{{ site.description | escape }}</p>                  
+      <div class="footer-col">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+            <li>
+              <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
+            </li>
+          {% endif %}
+      
+          {% if site.twitter_username %}
+            <li>
+              <a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a>
+            </li>
+          {% endif %}
+        </ul>      
+      </div>
+
+      <div class="footer-col">
+        <p class="site-description">{{ site.description | escape }}</p>                            
+      </div>
     </div>
+
   </div>
     
 </footer>

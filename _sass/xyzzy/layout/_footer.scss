@@ -14,5 +14,26 @@
 }
 
 .footer-inner {
+  box-sizing: border-box;  
   padding: .5rem; 
+}
+
+.footer-col-wrapper {
+  display: flex;
+}
+
+.footer-col {
+  display: inline-block;
+
+  &:first-child {
+    width: 35%;      
+  }
+
+  &:nth-child(2) {
+    width: 20%;      
+  }
+
+  &:last-child {
+    width: 43%;    
+  }
 }
