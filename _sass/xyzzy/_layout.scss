@@ -103,9 +103,13 @@
 }
 
 .site-description {
+  background: #f8f9fa;
+  border: 1px solid #adb5bd;
+  border-radius: 3px;
   font-family: 'Roboto Slab', serif;
   margin-top: 0;
-  padding-left: 1rem;
+  margin-left: 1rem;
+  padding: .5rem;
   width: 45%;
 }
 
