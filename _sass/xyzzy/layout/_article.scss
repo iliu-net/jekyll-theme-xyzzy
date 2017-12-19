@@ -30,5 +30,11 @@
 
 #article > section {
   @extend .xlimit-xs;
-  line-height: 1.75;
+  font-size: $font-size-sm;
+  line-height: $line-height-lg;
+
+  @media screen and (min-width: $breakpoint-sm) {
+    font-size: $font-size-base;
+    line-height: $line-height-xl;
+  }
 }
