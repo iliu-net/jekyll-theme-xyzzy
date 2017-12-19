@@ -10,6 +10,32 @@
   padding: .25rem;
 }
 
+#main {
+  padding-bottom: 2rem;
+}
+
+#footer {
+  border-top: 1px dashed #868e96;
+  color: #495057;  
+  font-family: 'Monda', sans-serif;  
+  font-size: .9em;
+  padding-top: 1.5rem;
+}
+
+.footer-wrapper {
+  padding: .5rem; 
+}
+
+.footer-heading {
+  font-size: 1.1em;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.footer-content {
+  display: flex;
+}
+
 .content {
   border: 1px solid #FFF;
   margin: 0 .5rem;
@@ -55,6 +81,32 @@
 
 .page-content {
   margin: .5rem;  
+}
+
+.contact-list, .social-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin: .25rem 0;
+  }
+}
+
+.contact-list {
+  width: 35%;
+}
+
+.social-media-list {
+  padding-left: 1rem;
+  width: 20%;
+}
+
+.site-description {
+  font-family: 'Roboto Slab', serif;
+  margin-top: 0;
+  padding-left: 1rem;
+  width: 45%;
 }
 
 .post-list {
