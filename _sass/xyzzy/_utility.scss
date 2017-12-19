@@ -6,7 +6,10 @@
 .xlimit-sm { max-width: $xlimit-sm; }
 .xlimit-xs { max-width: $xlimit-xs; }
 
-
 .font-sans {
   font-family: $font-family-sans;   
+}
+
+.text-center {
+  text-align: center;
 }
