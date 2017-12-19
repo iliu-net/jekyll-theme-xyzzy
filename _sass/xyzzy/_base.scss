@@ -1,5 +1,5 @@
 html {
-  color: #212529;  
+  color: $gray-dark-1;  
 }
 
 html.wf-active {
@@ -13,15 +13,15 @@ html.wf-active {
 }
 
 body {
-  background: #3b5bdb;
+  background: $color-body-bg;
 }
 
 a {
-  color: #364fc7;
+  color: $color-link;
 }
 
 pre, code {
-  border: 1px solid #ced4da;
+  border: 1px solid $color-divider-light;
   border-radius: $border-radius-sm;
   background-color: #FFF;
   font-size: 0.9em;

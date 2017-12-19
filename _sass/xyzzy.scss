@@ -19,6 +19,19 @@ $spacing-8: $spacing-1 * 8;
 $border-radius-base: 3px;
 $border-radius-sm: 2px;
 
+// Color
+$gray-dark-1: #212529;
+$gray-dark-2: #343a40;
+$gray-dark-3: #495057;
+$gray-dark-4: #868e96;
+$color-bg-base: #f1f3f5;
+$color-bg-light: #f8f9fa;
+$color-body-bg: #3b5bdb;
+$color-body-divider: #bac8ff;
+$color-divider-base: #adb5bd;
+$color-divider-light: #ced4da;
+$color-link: #364fc7;
+
 // Base
 @import 'xyzzy/base';
 

@@ -1,8 +1,8 @@
 #footer {
   @extend .xlimit;
   @extend .font-sans;
-  border-top: 1px dashed #868e96;
-  color: #495057;  
+  @extend .text-secondary;
+  border-top: 1px dashed $gray-dark-4;
   font-size: .9em;
   padding-top: $spacing-6;
 

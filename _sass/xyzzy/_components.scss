@@ -1,18 +1,18 @@
 .wrapper-outer {
-  border: 1px solid #bac8ff;
+  border: 1px solid $color-body-divider;
   margin: 0 $spacing-2;
   margin-bottom: $spacing-4;
 }
 
 .wrapper-inner {
-  background: #f1f3f5;
+  background: $color-bg-base;
   margin: $spacing-2;
   padding: $spacing-4;  
 }
 
 .site-description {
-  background: #f8f9fa;
-  border: 1px solid #adb5bd;
+  background: $color-bg-light;
+  border: 1px solid $color-divider-base;
   border-radius: $border-radius-base;
   font-family: $font-family-serif;
   margin-top: 0;
@@ -39,7 +39,7 @@
 
 .post-meta {
   @extend .font-sans;
-  color: #495057;
+  @extend .text-secondary;
   font-size: .85em;
   text-transform: uppercase;
 }
@@ -53,7 +53,7 @@
   text-decoration: none;
 
   &:active, &:hover {
-    color: #212529;
+    @extend .text-primary;
     text-decoration: underline;
   }
 }
