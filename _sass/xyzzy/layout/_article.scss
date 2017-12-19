@@ -1,0 +1,34 @@
+#article > header, #article > h1 {
+  @extend .xlimit-sm;    
+  border: 1px solid #495057;
+  border-radius: 3px;
+  box-shadow: 3px 3px 0 #495057;  
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+#article > h1 {
+  padding: 2rem .75rem;
+  text-align: center;  
+}
+
+#article > header {
+  padding: 0.75rem;  
+
+  a {
+    @extend .font-sans;
+    text-decoration: none;
+  }
+
+  p {
+    @extend .font-sans;
+    color: #495057;
+    font-size: .85em;  
+    margin-bottom: 0;
+  }  
+}
+
+#article > section {
+  @extend .xlimit-xs;
+  line-height: 1.75;
+}

@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+<article id="article" role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="article-header">
+  <header>
     <a href="{{ "/" | relative_url }}">Posts ></a>
     <h1 itemprop="name headline">{{ page.title | escape }}</h1>
     <p>
@@ -21,7 +21,7 @@ layout: default
     </p>
   </header>
 
-  <section class="article-body" itemprop="articleBody">
+  <section itemprop="articleBody">
     {{ content }}      
   </section>
 
