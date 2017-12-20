@@ -4,7 +4,7 @@
     <h2>{{ site.title | escape }}</h2>
 
     <section>
-      <div class="footer-author" itemscope itemtype="http://schema.org/Person">
+      <div class="footer-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
         <ul>
           {% if site.author %}
             <li itemprop="name">{{ site.author | escape }}</li>
@@ -24,7 +24,7 @@
         </ul>
       </div>
       <div class="footer-description">
-        <p>{{ site.description | escape }}</p>                            
+        <p itemprop="description">{{ site.description | escape }}</p>                            
       </div>
     </section>
 
