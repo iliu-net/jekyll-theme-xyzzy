@@ -9,6 +9,14 @@
     padding: $spacing-2;
     text-decoration: none;
 
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
     &:active, &:hover {
       text-decoration: underline;
     }
