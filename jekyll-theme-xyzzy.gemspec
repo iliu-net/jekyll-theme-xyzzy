@@ -1,12 +1,12 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-theme-xyzzy"
+  spec.name          = "xyzzy"
   spec.version       = "0.1.0"
   spec.authors       = ["Jonas Kay"]
   spec.email         = ["jonas@nextdjs.com"]
 
-  spec.summary       = "Write a short summary, because Rubygems requires one."
+  spec.summary       = "A geeky blog theme for Jekyll"
   spec.homepage      = "https://github.com/jonaskay/jekyll-theme-xyzzy"
   spec.license       = "MIT"
 
