@@ -21,18 +21,6 @@
   }
 }
 
-.site-description {
-  background: $color-bg-light;
-  border: 1px solid $color-divider-base;
-  border-radius: $border-radius-base;
-  font-family: $font-family-serif;
-  font-size: $font-size-sm;
-  line-height: $line-height-base;
-  margin-top: 0;
-  max-width: .45 * $xlimit-base;
-  padding: $spacing-2;
-}
-
 .post-list {
   @extend .list-none;
   padding: $spacing-4 0;

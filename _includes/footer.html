@@ -3,43 +3,30 @@
     
     <h2>{{ site.title | escape }}</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <ul class="list-none">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-          </li>
-      
-          {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    <section>
+      <div class="footer-author" itemscope itemtype="http://schema.org/Person">
+        <ul>
+          {% if site.author %}
+            <li itemprop="name">{{ site.author | escape }}</li>
           {% endif %}
-        </ul>      
-      </div>
-    
-      <div class="footer-col">
-        <ul class="list-none">
+
+          <li><a href="mailto:{{ site.email }}" itemprop="email">{{ site.email }}</a></li>
+        </ul>
+
+        <ul>
           {% if site.github_username %}
-            <li>
-              {% include github-link.html username=site.github_username %}
-            </li>
+            <li>{% include github-link.html username=site.github_username %}</li>
           {% endif %}
       
           {% if site.twitter_username %}
-            <li>
-              {% include twitter-link.html username=site.twitter_username %}
-            </li>
+            <li>{% include twitter-link.html username=site.twitter_username %}</li>
           {% endif %}
-        </ul>      
+        </ul>
       </div>
-
-      <div class="footer-col">
-        <p class="site-description">{{ site.description | escape }}</p>                            
+      <div class="footer-description">
+        <p>{{ site.description | escape }}</p>                            
       </div>
-    </div>
+    </section>
 
   </div>
     
