@@ -41,6 +41,8 @@
 
 @media screen and (min-width: $breakpoint-sm) {
   .footer-author {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
@@ -58,6 +60,8 @@
 
 @media screen and (min-width: $breakpoint-md) {
   .footer-inner > section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }  
 

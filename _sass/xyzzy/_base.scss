@@ -16,6 +16,10 @@ body {
   background: $color-body-bg;
 }
 
+b, strong {
+    font-weight: bold;
+}
+
 a {
   color: $color-link;
 }
